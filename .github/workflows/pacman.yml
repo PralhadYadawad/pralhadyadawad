@@ -1,0 +1,30 @@
+name: Generate Pac-Man Contribution Graph
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # daily
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Generate Pac-Man Graph
+        uses: Platane/snk@v3
+        with:
+          github_user_name: PralhadYadawad
+          theme: pacman
+          outputs: |
+            output/pacman-graph.svg
+            output/pacman-graph-dark.svg?palette=github-dark
+
+      - name: Commit files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output/*.svg
+          git commit -m "ci: update Pac-Man contribution graph" || echo "No change"
+          git push
