@@ -1,30 +1,37 @@
 name: Generate Pac-Man Contribution Graph
 
 on:
-  schedule:
-    - cron: "0 0 * * *"  # daily
   workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * 0" # Run every Sunday at midnight
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Generate Pac-Man Graph
-        uses: Platane/snk@v3
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
-          github_user_name: PralhadYadawad
-          theme: pacman
-          outputs: |
-            output/pacman-graph.svg
-            output/pacman-graph-dark.svg?palette=github-dark
+          node-version: 18
 
-      - name: Commit files
+      - name: Install Pac-Man graph generator
+        run: npm install -g @platane/pacman-contribution-graph
+
+      - name: Generate Pac-Man SVG
+        run: |
+          mkdir -p output
+          pacman-graph --user PralhadYadawad --output output/pacman.svg
+
+      - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add output/*.svg
-          git commit -m "ci: update Pac-Man contribution graph" || echo "No change"
+          git add output/pacman.svg
+          git commit -m "Update Pac-Man contribution graph" || echo "No changes"
           git push
