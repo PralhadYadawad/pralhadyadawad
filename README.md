@@ -78,17 +78,21 @@
 
 <br clear="both">
 
-<img align="left" height="230" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3M3dWFzMGl4NGNnd2Z4NTgyZ3M0ZnVsdGplbDI4bXNmbXcwdWpoeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/a2gRQzWi0HViEbwjui/giphy.gif"  />
+<img align="left" height="250" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3M3dWFzMGl4NGNnd2Z4NTgyZ3M0ZnVsdGplbDI4bXNmbXcwdWpoeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/a2gRQzWi0HViEbwjui/giphy.gif"  />
 
 ###
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=pralhadyadawad&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
+  <img src="https://streak-stats.demolab.com?user=pralhadyadawad&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" height="300" alt="streak graph"  />
 </div>
 
 ###
 
 <br clear="both">
+
+
+
+###
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PralhadYadawad/pralhadyadawad/output/pacman-contribution-graph-dark.svg">
