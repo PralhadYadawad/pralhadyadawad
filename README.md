@@ -1,4 +1,4 @@
-<h1 align="center">AI/ML · Software · Embedded - Open to roles</h1>
+<h1 align="center">AI/ML · Software ·</h1>
 
 ###
 
