@@ -107,10 +107,26 @@
 
 ###
 
-<h4 align="center">👨‍💻 Engineer focused on building production-grade AI/ML systems and resource-efficient embedded solutions bridging large-scale model engineering with edge deployment.</h4>
+<h4 align="left">👨‍💻 Engineer building production-grade AI systems, intelligent software, and resource-efficient solutions across cloud and edge.</h4>
 
 ###
 
-<h5 align="left">🤖 AI / ML: RAG & production chatbots, LLM fine-tuning (LoRA/PEFT), end-to-end model building (data pipelines, training, evaluation), and model deployment & monitoring  <br><br>🛠️ Embedded Systems: Firmware & real-time software (C/C++, RTOS), TinyML & quantization, hardware–software integration (sensors, UART/I2C/SPI/CAN), validation & debugging  <br><br>< / > Domains: AI/ML · Software Development · Embedded Systems (edge & firmware)  · NLP ·  Computer Vision · Edge AI  · IoT Security ·  Robotics <br><br>💪 Experience & Recognition: multiple hackathon wins, IEEE conference paper on EEG-based anxiety detection, internship at Visteon Corporation</h5>
+<h5 align="left">
+
+🤖 <b>AI / ML:</b> LLMs · AI Agents · RAG · Production Chatbots · LoRA/PEFT · Model Training & Evaluation · Inference & Deployment · AI Systems
+
+🧠 <b>AI Infrastructure:</b> Agentic Systems · Developer Tools · Code Intelligence · Persistent Context & Memory · AI-native Developer Workflows
+
+⚡ <b>Edge / Embedded:</b> C/C++ · RTOS · TinyML · Model Quantization · Real-Time Systems · Sensors · UART/I2C/SPI/CAN · Hardware–Software Integration
+
+👁️ <b>Applied AI:</b> Computer Vision · NLP · Edge AI · Robotics · IoT Security
+
+🔬 <b>Research:</b> IEEE Conference Publication · <b>11+ Citations</b> · Applied Machine Learning · Computer Vision
+
+🏆 <b>Recognition:</b> Multiple Hackathon Wins · NVIDIA AI Technology Center · Technical Competitions
+
+🏢 <b>Industry:</b> AI/ML Engineer @ Visteon Corporation
+
+</h5>
 
 ###
